@@ -35,4 +35,41 @@
         "hargaPenawaran": 0,
         "batas": "2026-09-03T17:30:00+07:00"
     }
+          ,
+  {
+    "id": 4,
+    "nama": "Es kopi susu kekinian",
+    "kategori": "minuman",
+    "labelKategori": "Minuman",
+    "penyedia": "Kedai Kopi Contoh",
+    "stok": 10,
+    "satuan": "buah",
+    "hargaNormal": 15000,
+    "hargaPenawaran": 7000,
+    "batas": "2026-09-03T20:00:00+07:00"
+  },
+  {
+    "id": 5,
+    "nama": "Beras organik 1kg",
+    "kategori": "bahan-pangan",
+    "labelKategori": "Bahan pangan",
+    "penyedia": "Tani Contoh",
+    "stok": 3,
+    "satuan": "kilogram",
+    "hargaNormal": 22000,
+    "hargaPenawaran": 12000,
+    "batas": "2026-09-04T12:00:00+07:00"
+  },
+  {
+    "id": 6,
+    "nama": "Paket bumbu dapur",
+    "kategori": "lainnya",
+    "labelKategori": "Lainnya",
+    "penyedia": "Pasar Contoh",
+    "stok": 15,
+    "satuan": "paket",
+    "hargaNormal": 10000,
+    "hargaPenawaran": 4000,
+    "batas": "2026-09-03T17:00:00+07:00"
+  }
 ]
