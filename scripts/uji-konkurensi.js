@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+ 
 const base = process.argv[2] ?? "http://127.0.0.1:3000";
 if (!["127.0.0.1", "localhost"].includes(new URL(base).hostname)) {
   throw new Error("Uji hanya pada server lokal latihan.");
@@ -30,7 +31,7 @@ try {
   assert.equal(cek.status, 200);
   assert.equal(body.data.stok, 0);
   console.log("PASS: satu berhasil, satu ditolak; stok akhir 0.");
-  console.log("Penawaran uji yang dipertahaman:", id);
+  console.log("Penawaran uji yang dipertahankan:", id);
 } catch (error) {
   console.error("FAIL:", error.message);
   process.exitCode = 1;
